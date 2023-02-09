@@ -226,13 +226,13 @@ class TempometerGaugeCard extends HTMLElement {
         <div class="gauge-b"></div>
         <div class="gauge-c" id="gauge"></div>
         <div class="gauge-d" id="recentMin">
-            <svg id="svg_min" style="margin-right: 90%; width: 18px;height: 18px; margin-top: -6px; padding-bottom: 10px" viewBox="0 0 24 24">
+            <svg id="svg_min" style="margin-right: 90%; width: 25px;height: 25px; margin-top: -6px; padding-bottom: 10px" viewBox="0 0 24 24">
                 <title id="svg_min_title"></title>
-                <path fill="blue" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
+                <path fill="red" d="M7.41,15.41L12,10.83L16.59,15.41L18,14L12,8L6,14L7.41,15.41Z" />
 	    </svg>
         </div>
         <div class="gauge-e" id="recentMax">
-            <svg id="svg_max" style="margin-right: 90%; width: 18px;height: 18px; margin-top: -12px; padding-bottom:10px;" viewBox="0 0 24 24">
+            <svg id="svg_max" style="margin-right: 90%; width: 25px;height: 25px; margin-top: -12px; padding-bottom:10px;" viewBox="0 0 24 24">
                 <title id="svg_max_title"></title>
                 <path fill="red" d="M7.41,8.58L12,13.17L16.59,8.58L18,10L12,16L6,10L7.41,8.58Z" />
             </svg>
